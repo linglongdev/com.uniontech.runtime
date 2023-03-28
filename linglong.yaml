@@ -8,6 +8,9 @@ package:
 base:
   id: org.deepin.base/20.5.0
 
+source:
+  kind: local
+
 depends:
   - id: qtbase/5.11.3.15
   - id: qt3d/5.11.3
