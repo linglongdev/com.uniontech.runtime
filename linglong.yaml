@@ -1,0 +1,56 @@
+package:
+  id: org.deepin.Runtime
+  kind: runtime
+  version: 20.5.0
+  description: |
+    runtime of deepin
+
+base:
+  id: org.deepin.base/20.5.0
+
+depends:
+  - id: qtbase/5.11.3.15
+  - id: qt3d/5.11.3
+  - id: qtcharts/5.11.3
+  - id: qtconnectivity/5.11.3
+  - id: qtgamepad/5.11.3
+  - id: qtsensors/5.11.3
+  - id: qtspeech/5.11.3
+  - id: qtvirtualkeyboard/5.11.3
+  - id: qtserialport/5.11.3
+  - id: qtnetworkauth/5.11.3
+  - id: qttools/5.11.3
+  - id: qtx11extras/5.11.3
+  - id: qtdeclarative/5.11.3
+  - id: qtsvg/5.11.3
+  - id: qtscript/5.11.3
+  - id: qtgraphicaleffects/5.11.3
+  - id: qtquickcontrols/5.11.3
+  - id: qtquickcontrols2/5.11.3
+  - id: qtxmlpatterns/5.11.3
+  - id: qtwayland/5.15.1.7
+  - id: qtmultimedia/5.11.3
+  - id: qtwebchannel/5.11.3
+  - id: qtwebsockets/5.11.3
+  - id: qtimageformats/5.11.3
+  - id: qtlocation/5.11.3
+  - id: dtkcommon/5.5.3
+  - id: dtkcore/5.5.26
+  - id: dtkgui/5.5.22
+  - id: dtkwidget/5.5.39
+  - id: dtkdeclarative/5.0.1
+  - id: qtxdg/3.3.1.1
+  - id: qt5integration/5.1.17
+  - id: double-conversion/3.1.0.2
+  - id: deepin-shortcut-viewer/5.0.5
+  - id: "fcitx-qt5/1.2.6.4"
+  - id: "gsettings-qt/0.2"
+  - id: "qt5platform-plugins/5.0.58"
+  - id: "linglong-config/0.0.1"
+
+
+build:
+  kind: manual
+  manual:
+    configure: |
+      echo skip configure
