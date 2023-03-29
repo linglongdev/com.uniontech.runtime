@@ -42,7 +42,7 @@ depends:
   - id: dtkgui/5.5.22
   - id: dtkwidget/5.5.39
   - id: dtkdeclarative/5.0.1
-  - id: qtxdg/3.3.1.1
+  - id: libqtxdg/3.3.1.1
   - id: qt5integration/5.1.17
   - id: double-conversion/3.1.0.2
   - id: deepin-shortcut-viewer/5.0.5
