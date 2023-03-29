@@ -1,12 +1,12 @@
 package:
   id: org.deepin.Runtime
   kind: runtime
-  version: 20.5.0
+  version: 23.0.0
   description: |
     runtime of deepin
 
 base:
-  id: org.deepin.base/20.5.0
+  id: org.deepin.base/23.0.0
 
 source:
   kind: local
