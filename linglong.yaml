@@ -49,6 +49,9 @@ depends:
   - id: gsettings-qt/0.3.1.1
   - id: linglong-config/0.0.1.2
 
+source:
+  kind: local
+
 build:
   kind: manual
   manual:
