@@ -47,6 +47,7 @@ do
         echo "$file" >> /tmp/deb-source-file/skip.list
     else
     # 否则安装到$PREFIX目录
+        echo "$pkg" >> "$PREFIX/packages.list"
         # 换行
         echo ""
         # 查找data.tar文件，文件会因为压缩格式不同，有不同的后缀，例如data.tar.xz、data.tar.gz

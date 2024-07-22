@@ -11,10 +11,12 @@ package:
 base: org.deepin.foundation/20.0.0.27
 
 build: |
+  # 生成包列表
   ./packages.bash > "$PREFIX/packages.list"
+  # 初始化构建环境
   source init.bash
-  ./qtbase.bash | tee qtbase.log
-  ./modules.bash | tee modules.log
+  rm -rf logs && mkdir logs
+  bash -e build.bash 2>&1 | tee logs/build.log
 
 sources:
   # linglong:gen_dsc_source sources https://pools.uniontech.com/desktop-professional eagle/1070 contrib main

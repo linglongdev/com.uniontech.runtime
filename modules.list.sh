@@ -2,6 +2,7 @@
 set -e
 # qt 模块
 modules=(
+    qtbase-opensource-src
     qtsvg-opensource-src
     qtdeclarative-opensource-src
     qtgraphicaleffects-opensource-src
