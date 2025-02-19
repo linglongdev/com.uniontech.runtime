@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-poolURL=http://10.20.64.92:8080/testing25_daily/pool
+poolURL=https://pools.uniontech.com/desktop-professional-V25/pool/
 codename=main
 sources=(
     qt6-base
